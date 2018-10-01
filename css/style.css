@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
 }
 
 nav {
@@ -9,7 +11,10 @@ nav {
   position: fixed;
   width: 100%;
 }
-
+p{
+  line-height: 2em;
+  font-size: 100%;
+}
 .logo {
   margin: 20px;
   width: 100px;
@@ -31,22 +36,43 @@ nav {
 .right {
   float: right;
 }
-
-ul {
-  list-style-type: none;
-  float: right;
+h1 {
+  font-size: 2em;
+  line-height: normal;
 }
-
-li {
-  float: right;
-  padding: 30px;
+h3 {
+  font-size: 1.5em;
+  line-height: normal;
 }
-
-article {
-  padding-top: 100px;
+a{
+  text-decoration: none;
+  font-weight: bold;
 }
+a:link {
+  color:#0020F4;
+  } /* unvisited */
+  a:visited {
+    color:#0070BB;
+    } /* visited */
+    a:hover {
+      color:#3BA1FC;
+      } /* mouse over */
 
-.container {
-  margin: 0 auto;
-  width: 50%;
-}
+        ul {
+          list-style-type: none;
+          float: right;
+        }
+
+        li {
+          float: right;
+          padding: 30px;
+        }
+
+        article {
+          padding-top: 100px;
+        }
+
+        .container {
+          margin: 0 auto;
+          width: 50%;
+        }
