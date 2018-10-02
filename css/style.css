@@ -14,6 +14,8 @@ nav {
 p{
   line-height: 1.5em;
   font-size: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .logo {
   margin: 20px;
@@ -39,10 +41,14 @@ p{
 h1 {
   font-size: 2em;
   line-height: normal;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 h3 {
   font-size: 1.5em;
   line-height: normal;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 a{
   text-decoration: none;
